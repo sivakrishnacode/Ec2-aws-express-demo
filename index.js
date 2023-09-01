@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/path", (req, res) => {
-  console.log(req.headers);
   return res.status(200).json({
     message: "Hello from path! --path",
   });
